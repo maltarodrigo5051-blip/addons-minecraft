@@ -1,0 +1,31 @@
+{
+  "format_version": "1.20.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "backpack:backpack",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:durability": {
+        "max_durability": 9999
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [ "backpack:upgrade_copper" ],
+            "repair_amount": 9000
+          }
+        ]
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:icon": {
+        "texture": "backpack_leather"
+      },
+      "minecraft:display_name": {
+        "value": "Mochila de cuero"
+      }
+    }
+  }
+}

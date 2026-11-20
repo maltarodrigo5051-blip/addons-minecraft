@@ -1,0 +1,30 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "backpack:iron_asñikhjifluishdf"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "CAC",
+            "ABA",
+            "CAC"
+        ],
+        "key": {
+            "A": {
+                "item": "minecraft:iron_ingot"
+            },
+            "B": {
+                "item": "backpack:upgrade_copper"
+            },
+            "C": {
+                "item": "minecraft:iron_block"
+            }
+        },
+        "result": {
+            "item": "backpack:upgrade_iron"
+        }
+    }
+}

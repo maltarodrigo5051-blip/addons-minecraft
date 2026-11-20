@@ -1,0 +1,116 @@
+{
+   "format_version" : "1.20.20",
+   "sound_definitions" : {
+      // backpack music
+      "Snowfall": {
+         "category": "ui",
+         "sounds": [ { "name": "sounds/music_backpack/music_1", "stream": true } ]
+      },
+      "Desert Theme": {
+         "category": "ui",
+         "sounds": [ { "name": "sounds/music_backpack/music_2", "stream": true } ]
+      },
+      "Breves Dies Hominis": {
+         "category": "ui",
+         "sounds": [ { "name": "sounds/music_backpack/music_3", "stream": true } ]
+      },
+      "Boss Battle Theme": {
+         "category": "ui",
+         "sounds": [ { "name": "sounds/music_backpack/music_4", "stream": true } ]
+      },
+      "Night Prowler": {
+         "category": "ui",
+         "sounds": [ { "name": "sounds/music_backpack/music_5", "stream": true } ]
+      },
+      "Prepare Your Swords": {
+         "category": "ui",
+         "sounds": [ { "name": "sounds/music_backpack/music_6", "stream": true } ]
+      },
+      "Cave Theme": {
+         "category": "ui",
+         "sounds": [ { "name": "sounds/music_backpack/music_7", "stream": true } ]
+      },
+      "Nevada (bucle)": {
+         "category": "ui",
+         "sounds": [ { "name": "sounds/music_backpack/music_8", "stream": true } ]
+      },
+
+      // vanilla music
+      "C418 - 13": {
+         "category": "ui",
+         "sounds": [ { "name": "sounds/music/game/records/13", "stream": true } ]
+      },
+      "C418 - cat": {
+         "category": "ui",
+         "sounds": [ { "name": "sounds/music/game/records/cat", "stream": true } ]
+      },
+      "C418 - blocks": {
+         "category": "ui",
+         "sounds": [ { "name": "sounds/music/game/records/blocks", "stream": true } ]
+      },
+      "C418 - chirp": {
+         "category": "ui",
+         "sounds": [ { "name": "sounds/music/game/records/chirp", "stream": true } ]
+      },
+      "C418 - far": {
+         "category": "ui",
+         "sounds": [ { "name": "sounds/music/game/records/far", "stream": true } ]
+      },
+      "C418 - mall": {
+         "category": "ui",
+         "sounds": [ { "name": "sounds/music/game/records/mall", "stream": true } ]
+      },
+      "C418 - mellohi": {
+         "category": "ui",
+         "sounds": [ { "name": "sounds/music/game/records/mellohi", "stream": true } ]
+      },
+      "C418 - stal": {
+         "category": "ui",
+         "sounds": [ { "name": "sounds/music/game/records/stal", "stream": true } ]
+      },
+      "C418 - strad": {
+         "category": "ui",
+         "sounds": [ { "name": "sounds/music/game/records/strad", "stream": true } ]
+      },
+      "C418 - ward": {
+         "category": "ui",
+         "sounds": [ { "name": "sounds/music/game/records/ward", "stream": true } ]
+      },
+      "C418 - 11": {
+         "category": "ui",
+         "sounds": [ { "name": "sounds/music/game/records/11", "stream": true } ]
+      },
+      "C418 - wait": {
+         "category": "ui",
+         "sounds": [ { "name": "sounds/music/game/records/wait", "stream": true } ]
+      },
+      "Lena Raine - otherside": {
+         "category": "ui",
+         "sounds": [ { "name": "sounds/music/game/records/otherside", "stream": true } ]
+      },
+      "Samuel Åberg - 5": {
+         "category": "ui",
+         "sounds": [ { "name": "sounds/music/game/records/5", "stream": true } ]
+      },
+      "Lena Raine - Pigstep": {
+         "category": "ui",
+         "sounds": [ { "name": "sounds/music/game/records/pigstep_master", "stream": true } ]
+      },
+      "Aaron Cherof - Relic": {
+         "category": "ui",
+         "sounds": [ { "name": "sounds/music/game/records/relic", "stream": true } ]
+      },
+      "Lena Raine - Creator": {
+         "category": "ui",
+         "sounds": [ { "name": "sounds/music/game/records/creator", "stream": true } ]
+      },
+      "Lena Raine - Creator (Music Box)": {
+         "category": "ui",
+         "sounds": [ { "name": "sounds/music/game/records/creator_music_box", "stream": true } ]
+      },
+      "Aaron Cherof - Precipice": {
+         "category": "ui",
+         "sounds": [ { "name": "sounds/music/game/records/precipice", "stream": true } ]
+      }
+   }
+}

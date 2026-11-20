@@ -1,0 +1,21 @@
+﻿item.record_11.desc=C418 - 11
+item.record_13.desc=C418 - 13
+item.record_blocks.desc=C418 - blocks
+item.record_cat.desc=C418 - cat
+item.record_chirp.desc=C418 - chirp
+item.record_far.desc=C418 - far
+item.record_mall.desc=C418 - mall
+item.record_mellohi.desc=C418 - mellohi
+item.record.name=Music Disc
+item.record_stal.desc=C418 - stal
+item.record_strad.desc=C418 - strad
+item.record_wait.desc=C418 - wait
+item.record_ward.desc=C418 - ward
+item.record_pigstep.desc=Lena Raine - Pigstep
+item.record_otherside.desc=Lena Raine - otherside
+item.record_relic.desc=Aaron Cherof - Relic
+item.record_creator.desc=Lena Raine - Creator
+item.record_creator_music_box.desc=Lena Raine - Creator (Music Box)
+item.record_precipice.desc=Aaron Cherof - Precipice
+
+item.backpack.no_portal=§4§℃Você não pode abrir a mochila perto de um portal

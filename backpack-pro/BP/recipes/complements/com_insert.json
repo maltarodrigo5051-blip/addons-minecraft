@@ -1,0 +1,36 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+      "description": {
+        "identifier": "comp:backpack_insert"
+      },
+      "tags": [
+        "crafting_table"
+      ],
+      "pattern": [
+        "ABA",
+        "COC",
+        "ADA"
+      ],
+      "key": {
+        "O": {
+          "item": "complement:transfer"
+        },
+        "A": {
+          "item": "minecraft:netherite_ingot"
+        },
+        "B": {
+          "item": "minecraft:dispenser"
+        },
+        "C": {
+          "item": "minecraft:redstone"
+        },
+        "D": {
+          "item": "minecraft:hopper"
+        }
+      },
+      "result": {
+        "item": "complement:insert"
+      }
+    }
+  }

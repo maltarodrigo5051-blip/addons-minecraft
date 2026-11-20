@@ -1,0 +1,76 @@
+{
+  "namespace": "common",
+
+  "container_item/item_cell/item/stack_count_label": {
+    "layer": "$layer_custom_stack_count",
+    "$layer_custom_stack_count|default": 9
+  },
+
+  "container_item/item_cell/durability_bar": {
+    "layer": "$layer_custom_durability",
+    "$layer_custom_durability|default": 8 
+  },
+
+  "scrolling_panel": {
+    "controls": [
+      {
+        "scroll_touch@common.scrolling_panel_base": {
+          "ignored": "(not $touch)",
+          "size": "$scrolling_pane_size",
+          "offset": "$scrolling_pane_offset"
+        }
+      },
+      {
+        "scroll_mouse@common.scrolling_panel_base": {
+          "ignored": "$touch",
+          "size": "$scrolling_pane_size",
+          "offset": "$scrolling_pane_offset"
+        }
+      }
+    ]
+  },
+
+  "cell_backpack_icon": {
+    "type": "image",
+    "texture": "textures/ui/backpack_cell",
+    "size": [14, 14],
+    "bindings": [
+      {
+        "binding_type": "collection_details",
+        "binding_collection_name": "inventory_items"
+      },
+      {
+        "binding_type": "collection",
+        "binding_collection_name": "inventory_items",
+        "binding_name": "#collection_index"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(#collection_index = 0)",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+
+  "grid_item_for_inventory@common.container_item": {
+    "$item_collection_name": "inventory_items",
+    "$cell_overlay_ref_bp": "common.cell_backpack_icon"
+  },
+
+  "container_item": {
+    "$cell_overlay_ref_bp|default": "common.cell_overlay",
+    "modifications": [
+      {
+        "control_name": "item_cell_overlay_ref",
+        "operation": "insert_after",
+        "value": [
+          {
+            "item_cell_overlay_ref_bp@$cell_overlay_ref_bp": {
+              "layer": 3
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

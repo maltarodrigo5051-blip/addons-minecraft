@@ -1,0 +1,156 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "backpack:entity_container",
+      "enable_attachables": true,
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/atta/backpack_ladder",
+        "b_base": "textures/atta/bp_base",
+        "b_leather": "textures/atta/leather",
+        "b_copper": "textures/atta/copper",
+        "b_iron": "textures/atta/iron",
+        "b_gold": "textures/atta/gold",
+        "b_diamond": "textures/atta/diamond",
+        "b_nether": "textures/atta/netherite",
+        "comp_backpack": "textures/atta/aditaments",
+        "bps_axolotl": "textures/atta/bp_skins/axolotl",
+        "bps_warden": "textures/atta/bp_skins/warden",
+        "bps_among": "textures/atta/bp_skins/amongus",
+        "bps_golem": "textures/atta/bp_skins/golem",
+        "bps_nutria": "textures/atta/bp_skins/nutria",
+        "bps_wither": "textures/atta/bp_skins/wither",
+        "bps_zorro": "textures/atta/bp_skins/zorro",
+        "bps_rappy": "textures/atta/bp_skins/rappy",
+        "bps_oso": "textures/atta/bp_skins/oso",
+        "bps_nieve": "textures/atta/bp_skins/nieve",
+        "bps_pig": "textures/atta/bp_skins/pig",
+        "bps_libre_12": "textures/atta/bp_base",
+        "bps_libre_13": "textures/atta/bp_base",
+        "bp_tinte": "textures/atta/bp_dyes_base",
+        "bp_correas": "textures/atta/correas_bp"
+      },
+      "geometry": {
+        "default": "geometry.backpack_entity",
+        "backpack_base": "geometry.backpack_base",
+        "backpack": "geometry.backpack_bloque",
+        "backpack_farming": "geometry.cultivo",
+        "backpack_furnace": "geometry.horno",
+        "backpack_torch": "geometry.torch",
+        "backpack_pickaxe": "geometry.pico",
+        "backpack_espada": "geometry.espada",
+        "backpack_jukebox": "geometry.jukebox",
+        "backpack_liquid": "geometry.liquid",
+        "backpack_axolotl": "geometry.ajolote",
+        "backpack_warden": "geometry.bps_warden",
+        "backpack_nutria": "geometry.nutria",
+        "backpack_zorro": "geometry.zorro",
+        "backpack_golem": "geometry.bps_golem",
+        "backpack_wither": "geometry.bps_wither",
+        "backpack_among": "geometry.amongus",
+        "backpack_rappy": "geometry.rappy",
+        "backpack_rappy_m": "geometry.rappy_mejora_skin",
+        "backpack_oso": "geometry.oso",
+        "backpack_nieve": "geometry.nieve",
+        "backpack_pig": "geometry.bp_pig",
+        "backpack_skin_pe": "geometry.skin_bp_person",
+        "bp_correas": "geometry.backpack_tinte_correas",
+        "bp_base": "geometry.backpack_base_tinte"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.max = query.variant;"
+        ],
+        "animate": [
+          "default_backpack",
+          {
+            "is_backpack_skin": "q.has_property('bps:is_skin') && q.property('bps:is_skin')>0"
+          },
+          {
+            "backpack_liquid": "q.has_property('bp:liquid') && q.property('bp:liquid')==true"
+          },
+          {
+            "backpack_jukebox": "q.has_property('bp:jukebox') && q.property('bp:jukebox')==true"
+          },
+          {
+            "backpack_open_frente": "q.has_property('bp:torch') && q.property('bp:torch')==true"
+          },
+          {
+            "backpack_open_frente": "q.has_property('bp:pick') && q.property('bp:pick')==true"
+          },
+          {
+            "backpack_open_frente": "q.has_property('bp:espada') && q.property('bp:espada')==true"
+          },
+          {
+            "backpack_open_left": "q.has_property('bp:furn') && q.property('bp:furn')==true"
+          },
+          {
+            "backpack_open_left": "q.has_property('bp:sword') && q.property('bp:sword')==true"
+          },
+          {
+            "is_rappi_skin": "q.has_property('bps:is_skin') && q.property('bps:is_skin')==8"
+          },
+          {
+            "is_rappi_block": "q.has_property('bps:is_skin') && q.property('bps:is_skin')==8"
+          }
+        ]
+      },
+      "animations": {
+        "is_rappi_block": "animation.backpack.rappi_aditaments_block",
+        "is_rappi_skin": "animation.backpack.rappi_aditaments",
+        "default_liquid": "animation.mochila.liquid_default",
+        "backpack_liquid": "animation.mochila.liquid",
+        "backpack_jukebox": "animation.mochila.jukebox",
+        "backpack_anims_1person": "animation.backpack.1person",
+        "backpack_open_frente": "animation.mochila.abrir_bolsa_frente",
+        "backpack_open_left": "animation.mochila.abrir_bolsa_left",
+        "default_backpack": "animation.mochila.backpack_block_default",
+        "is_backpack_skin": "animation.mochila.is_skin"
+      },
+      "render_controllers": [
+        {
+          "controller.render.correas_backpack": "q.has_property('bp:is_dyes') && q.property('bp:is_dyes')==true"
+        },
+        {
+          "controller.render.backpack_colors": "q.has_property('bp:is_dyes') && q.property('bp:is_dyes')==true"
+        },
+        {
+          "controller.render.backpack_base": "(q.has_property('bp:is_backpack')) ? (q.property('bps:is_skin')==0) ? (q.property('bp:is_backpack')>0)"
+        },
+        {
+          "controller.render.backpack_level": "q.has_property('bp:is_backpack') && q.property('bp:is_backpack')>0 && q.property('bps:is_skin')!=8"
+        },
+        {
+          "controller.render.bps_skins": "q.has_property('bps:is_skin') && q.property('bps:is_skin')>0"
+        },
+        {
+          "controller.render.backpack_rappy_mejora": "q.has_property('bps:is_skin') && q.property('bps:is_skin')==8 && q.property('bp:is_backpack')>0"
+        },
+        {
+          "controller.render.backpack_comp_farming": "q.has_property('bp:farm') && q.property('bp:farm')==true"
+        },
+        {
+          "controller.render.backpack_comp_furnace": "q.has_property('bp:furn') && q.property('bp:furn')==true"
+        },
+        {
+          "controller.render.backpack_comp_torch": "q.has_property('bp:torch') && q.property('bp:torch')==true"
+        },
+        {
+          "controller.render.backpack_comp_pickaxe": "q.has_property('bp:pick') && q.property('bp:pick')==true"
+        },
+        {
+          "controller.render.backpack_comp_espada": "q.has_property('bp:espada') && q.property('bp:espada')==true"
+        },
+        {
+          "controller.render.backpack_comp_jukebox": "q.has_property('bp:jukebox') && q.property('bps:is_skin')<12 && q.property('bps:is_skin')!=9 && q.property('bps:is_skin')!=10 && q.property('bps:is_skin')!=4 && q.property('bps:is_skin')!=3 && q.property('bps:is_skin')!=5 && q.property('bps:is_skin')!=6 && q.property('bp:jukebox')==true"
+        },
+        {
+          "controller.render.backpack_comp_liquid": "q.has_property('bp:liquid') && q.property('bp:liquid')==true"
+        }
+      ]
+    }
+  }
+}

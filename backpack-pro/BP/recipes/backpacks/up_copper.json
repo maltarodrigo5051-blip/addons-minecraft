@@ -1,0 +1,30 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "backpack:copper_asñikhjifluishdf"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "CAC",
+            "ABA",
+            "CAC"
+        ],
+        "key": {
+            "A": {
+                "item": "minecraft:amethyst_shard"
+            },
+            "B": {
+                "item": "complement:base"
+            },
+            "C": {
+                "item": "minecraft:copper_block"
+            }
+        },
+        "result": {
+            "item": "backpack:upgrade_copper"
+        }
+    }
+}

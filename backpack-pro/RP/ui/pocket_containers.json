@@ -1,0 +1,427 @@
+{
+  "backpack_default@pocket_containers.panel_backpack": {
+		"$button_amount": 27,
+		"$output_furnace_slot": 31,
+		"$input_furnace_slot": 32,
+		"$input_furnace_slot_fuel": 33,
+		"$input_furnace_slot_fuel_1": 34,
+		"$input_furnace_slot_fuel_2": 35,
+		"$input_furnace_slot_fuel_3": 36,
+		"$input_furnace_slot_fuel_4": 37,
+
+		"$magnet_slot_1": 38,
+		"$magnet_slot_2": 39,
+		"$magnet_slot_3": 40,
+		"$magnet_slot_4": 41,
+		
+		"$food_slot": 42,
+
+		"$music_slot": 43,
+
+        "$index_liquid_1": 44,
+		"$index_liquid_2": 45,
+
+		"$index_liquid_1_evalue": 46,
+		"$index_liquid_2_evalue": 47,
+
+		"$level_backpack_liqud": 4.0,
+		"$level_bp_liquid": 4,
+		"$text_not_liquid": "0/4 Buckets",
+
+		"$skin_config_slot": 48,
+		"$tinte_config_slot": 49,
+		
+		"$farming_slot_1": 28,
+		"$farming_slot_2": 29,
+		"$farming_slot_3": 30,
+
+		"$index_function_slot1": 27,
+
+		"$text_backpack": "BackPack"
+	},
+
+  "backpack_copper@pocket_containers.panel_backpack": {
+		"$output_furnace_slot": 40,
+		"$input_furnace_slot": 41,
+		"$input_furnace_slot_fuel": 42,
+		"$input_furnace_slot_fuel_1": 43,
+		"$input_furnace_slot_fuel_2": 44,
+		"$input_furnace_slot_fuel_3": 45,
+		"$input_furnace_slot_fuel_4": 46,
+
+		"$magnet_slot_1": 47,
+		"$magnet_slot_2": 48,
+		"$magnet_slot_3": 49,
+		"$magnet_slot_4": 50,
+		
+		"$food_slot": 51,
+		"$music_slot": 52,
+
+		"$index_liquid_1": 53,
+		"$index_liquid_2": 54,
+
+		"$index_liquid_1_evalue": 55,
+		"$index_liquid_2_evalue": 56,
+
+		"$level_backpack_liqud": 4.0,
+		"$level_bp_liquid": 4,
+		"$text_not_liquid": "0/4 Buckets",
+
+		"$skin_config_slot": 57,
+		"$tinte_config_slot": 58,
+		
+		"$farming_slot_1": 37,
+		"$farming_slot_2": 38,
+		"$farming_slot_3": 39,
+
+		"$index_function_slot1": 36,
+
+		"$text_backpack": "Mochila de cobre"
+	},
+
+	"backpack_iron@pocket_containers.panel_backpack": {
+		"$button_amount": 45,
+		"$output_furnace_slot": 50,
+		"$input_furnace_slot": 51,
+		"$input_furnace_slot_fuel": 52,
+		"$input_furnace_slot_fuel_1": 53,
+		"$input_furnace_slot_fuel_2": 54,
+		"$input_furnace_slot_fuel_3": 55,
+		"$input_furnace_slot_fuel_4": 56,
+
+		"$magnet_slot_1": 57,
+		"$magnet_slot_2": 58,
+		"$magnet_slot_3": 59,
+		"$magnet_slot_4": 60,
+
+		"$food_slot": 61,
+
+		"$music_slot": 62,
+
+    "$index_liquid_1": 63,
+		"$index_liquid_2": 64,
+
+		"$index_liquid_1_evalue": 65,
+		"$index_liquid_2_evalue": 66,
+
+		"$level_backpack_liqud": 6.0,
+		"$level_bp_liquid": 6,
+		"$text_not_liquid": "0/6 Buckets",
+
+		"$skin_config_slot": 67,
+		"$tinte_config_slot": 68,
+		
+		"$farming_slot_1": 47,
+		"$farming_slot_2": 48,
+		"$farming_slot_3": 49,
+
+		"$index_function_slot1": 45,
+		"$index_function_slot2": 46,
+
+		"$text_backpack": "Mochila de hierro"
+	},
+
+  "backpack_gold@pocket_containers.panel_backpack": {
+		"$output_furnace_slot": 59,
+		"$input_furnace_slot": 60,
+		"$input_furnace_slot_fuel": 61,
+		"$input_furnace_slot_fuel_1": 62,
+		"$input_furnace_slot_fuel_2": 63,
+		"$input_furnace_slot_fuel_3": 64,
+		"$input_furnace_slot_fuel_4": 65,
+
+		"$magnet_slot_1": 66,
+		"$magnet_slot_2": 67,
+		"$magnet_slot_3": 68,
+		"$magnet_slot_4": 69,
+
+		"$food_slot": 70,
+		"$music_slot": 71,
+
+		"$index_liquid_1": 72,
+		"$index_liquid_2": 73,
+
+		"$index_liquid_1_evalue": 74,
+		"$index_liquid_2_evalue": 75,
+
+		"$level_backpack_liqud": 6.0,
+		"$level_bp_liquid": 6,
+		"$text_not_liquid": "0/6 Buckets",
+
+		"$skin_config_slot": 76,
+		"$tinte_config_slot": 77,
+		
+		"$farming_slot_1": 56,
+		"$farming_slot_2": 57,
+		"$farming_slot_3": 58,
+
+		"$index_function_slot1": 54,
+		"$index_function_slot2": 55,
+
+		"$text_backpack": "Mochila de oro"
+	},
+
+	"backpack_diamond@pocket_containers.panel_backpack": {
+		"$button_amount": 60,
+		"$output_furnace_slot": 67,
+		"$input_furnace_slot": 68,
+		"$input_furnace_slot_fuel": 69,
+		"$input_furnace_slot_fuel_1": 70,
+		"$input_furnace_slot_fuel_2": 71,
+		"$input_furnace_slot_fuel_3": 72,
+		"$input_furnace_slot_fuel_4": 73,
+
+		"$magnet_slot_1": 74,
+		"$magnet_slot_2": 75,
+		"$magnet_slot_3": 76,
+		"$magnet_slot_4": 77,
+
+		"$food_slot": 78,
+
+		"$music_slot": 79,
+
+    "$index_liquid_1": 80,
+		"$index_liquid_2": 81,
+
+		"$index_liquid_1_evalue": 82,
+		"$index_liquid_2_evalue": 83,
+
+		"$level_backpack_liqud": 8.0,
+		"$level_bp_liquid": 8,
+		"$text_not_liquid": "0/8 Buckets",
+
+		"$skin_config_slot": 84,
+		"$tinte_config_slot": 85,
+
+		"$farming_slot_1": 64,
+		"$farming_slot_2": 65,
+		"$farming_slot_3": 66,
+
+		"$index_function_slot1": 60,
+		"$index_function_slot2": 61,
+		"$index_function_slot3": 62,
+		"$index_function_slot4": 63,
+
+		"$text_backpack": "Mochila de diamante"
+	},
+
+	"backpack_netherite@pocket_containers.panel_backpack": {
+		"$button_amount": 108,
+		"$output_furnace_slot": 117,
+		"$input_furnace_slot": 118,
+		"$input_furnace_slot_fuel": 119,
+		"$input_furnace_slot_fuel_1": 120,
+		"$input_furnace_slot_fuel_2": 121,
+		"$input_furnace_slot_fuel_3": 122,
+		"$input_furnace_slot_fuel_4": 123,
+		
+		"$magnet_slot_1": 124,
+		"$magnet_slot_2": 125,
+		"$magnet_slot_3": 126,
+		"$magnet_slot_4": 127,
+
+		"$food_slot": 128,
+		"$music_slot": 129,
+
+    "$index_liquid_1": 130,
+		"$index_liquid_2": 131,
+
+		"$index_liquid_1_evalue": 132,
+		"$index_liquid_2_evalue": 133,
+
+		"$level_backpack_liqud": 10.0,
+		"$level_bp_liquid": 10,
+		"$text_not_liquid": "0/10 Buckets",
+
+		"$skin_config_slot": 134,
+		"$tinte_config_slot": 135,
+
+		"$farming_slot_1": 114,
+		"$farming_slot_2": 115,
+		"$farming_slot_3": 116,
+
+		"$index_function_slot1": 108,
+		"$index_function_slot2": 109,
+		"$index_function_slot3": 110,
+		"$index_function_slot4": 111,
+		"$index_function_slot5": 112,
+		"$index_function_slot6": 113,
+
+		"$text_backpack": "Mochila de netherite"
+	},
+
+  "header_panel_backpack": {
+    "type": "panel",
+    "layer": 1,
+    "size": [ "50%", "27px" ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "header_background": {
+          "type": "image",
+          "layer": 40,
+          "texture": "textures/ui/header_bar"
+        }
+      },
+      {
+        "text_title": {
+					"type": "label",
+					"text": "$text_backpack",
+          "$text_backpack|default": " ",
+					"color": "$pocket_title_text_color",
+					"layer": 42,
+          "anchor_from": "center",
+          "anchor_to": "center"
+				}
+      }
+    ]
+  },
+
+  "header_area": {
+    "type": "panel",
+    "$stext": "$container_title",
+    "controls": [
+      { "x@common.legacy_pocket_close_button": { "layer": 50 } },
+      {
+        "inventory_header@pocket_containers.header_panel": {
+          "$header_label": "chestScreen.header.player"
+        }
+      },
+      {
+        "container_header@pocket_containers.header_panel": {
+          "visible": "(not (('%.15s' * $stext) = 'backpackExecute'))",
+          "layer": 2,
+          "anchor_from": "top_middle",
+          "$header_label": "$container_title"
+        }
+      },
+      {
+        "title_text_backpack@pocket_containers.header_panel_backpack": {
+          "layer": 2,
+          "anchor_from": "top_middle",
+          "visible": "(('%.15s' * $stext) = 'backpackExecute')"
+        }
+      }
+    ]
+  },
+
+  //--------------------
+  // Screen Definitions
+  //--------------------
+
+  "panel_backpack@pocket_containers.panel": {
+    "$etext": "$container_title",
+    "controls": [
+      { "container_gamepad_helpers@common.container_gamepad_helpers": { "layer": 3 } },
+      { "header@header_area": { "layer": 2 } },
+      { "bg@background_panel": { "layer": 0 } },
+      {
+        "inventory@half_screen": {
+          "$container_size": 36,
+          "$pane_collection": "combined_hotbar_and_inventory_items"
+        }
+      },
+      {
+        "container@half_screen": {
+          "anchor_from": "top_middle",
+          "$pane_collection": "container_items"
+        }
+      },
+      { "selected_item_details_factory@common.selected_item_details_factory": {} },
+      {
+        "item_lock_notification_factory@common.item_lock_notification_factory": {
+          "$offset": [ 0, "85%" ]
+        }
+      },
+      { "gamepad_cursor@common.gamepad_cursor_button": {} },
+      { "inventory_selected_icon_button@common.inventory_selected_icon_button": {} },
+      { "hold_icon@common.inventory_take_progress_icon_button": {} },
+      { "flying_item_renderer@common.flying_item_renderer": {} },
+      {
+        "function_slots@chest_bp.stots_function": {
+          "$offset_var": [-5, 43],
+          "anchor_from": "top_right",
+          "anchor_to": "top_right",
+          "$size_slot_function_bp_cell": [26, 26],
+          "$size_slot_function_bp": [26, 27],
+          "$layer_bp_background_functions": -28
+        }
+      },
+      {
+        "buttons_bp_aditaments@chest_bp.button_furnace": {
+          "$anchor_buttons_adit": "top_middle",
+          "layer": 5,
+          "offset": [5, 33]
+        }
+      },
+      {
+        "black_image_center_buttons": {
+          "anchor_from": "center",
+          "anchor_to": "center",
+          "$index_function_slot1|default": 999,
+          "$index_function_slot2|default": 999,
+          "$index_function_slot3|default": 999,
+          "$index_function_slot4|default": 999,
+          "$index_function_slot5|default": 999,
+          "$index_function_slot6|default": 999,
+          "type": "image",
+          "layer": 15,
+          "offset": [20, 0],
+          "size": [10, "100%"],
+          "texture": "textures/ui/TabLeftFront",
+          "controls": [
+            {
+              "stackpanel_liquid_container_evalue_pe": {
+                "type": "stack_panel",
+                "$offset_var_liquid_text": [ "-10%c", -44 ],
+                "$size_liquid_var_count": ["100%", 18],
+                "$offset_image_hover_liquid": [-6, 0],
+                "$offset_image_hover_liquid_2": [6, 0],
+                "layer": 15,
+                "size": [ "100%c", "88%" ],
+                "orientation": "horizontal",
+                "collection_name": "container_items",
+                "anchor_from": "center",
+                "anchor_to": "center",
+                "offset": [40, 12],
+                "controls": [
+                  {
+                    "containers_liquid_stackpanel_1@chest_bp.stackpanel_liquid_container_evalue": {
+                      "$index_panel_liquid": "$index_function_slot1"
+                    }
+                  },
+                  {
+                    "containers_liquid_stackpanel_2@chest_bp.stackpanel_liquid_container_evalue": {
+                      "$index_panel_liquid": "$index_function_slot2"
+                    }
+                  },
+                  {
+                    "containers_liquid_stackpanel_3@chest_bp.stackpanel_liquid_container_evalue": {
+                      "$index_panel_liquid": "$index_function_slot3"
+                    }
+                  },
+                  {
+                    "containers_liquid_stackpanel_4@chest_bp.stackpanel_liquid_container_evalue": {
+                      "$index_panel_liquid": "$index_function_slot4"
+                    }
+                  },
+                  {
+                    "containers_liquid_stackpanel_5@chest_bp.stackpanel_liquid_container_evalue": {
+                      "$index_panel_liquid": "$index_function_slot5"
+                    }
+                  },
+                  {
+                    "containers_liquid_stackpanel_6@chest_bp.stackpanel_liquid_container_evalue": {
+                      "$index_panel_liquid": "$index_function_slot6"
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

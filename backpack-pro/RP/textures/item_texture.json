@@ -1,0 +1,138 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_data": {
+    "bp_upgrade_copper": {
+      "textures": "textures/bp/upg/copper"
+    },
+    "bp_upgrade_iron": {
+      "textures": "textures/bp/upg/iron"
+    },
+    "bp_upgrade_gold": {
+      "textures": "textures/bp/upg/gold"
+    },
+    "bp_upgrade_diamond": {
+      "textures": "textures/bp/upg/diamond"
+    },
+    "bp_upgrade_nether": {
+      "textures": "textures/bp/upg/nether"
+    },
+    "bp_skin_pig": {
+      "textures": "textures/items/skins/pig"
+    },
+    "bp_skin_ajolote": {
+      "textures": "textures/items/skins/ajolote"
+    },
+    "bp_skin_among": {
+      "textures": "textures/items/skins/amongus"
+    },
+    "bp_skin_golem": {
+      "textures": "textures/items/skins/golem"
+    },
+    "bp_skin_nutria": {
+      "textures": "textures/items/skins/nutria"
+    },
+    "bp_skin_tinte": {
+      "textures": "textures/items/skins/tinte"
+    },
+    "bp_skin_warden": {
+      "textures": "textures/items/skins/warden"
+    },
+    "bp_skin_wither": {
+      "textures": "textures/items/skins/wither"
+    },
+    "bp_skin_zorro": {
+      "textures": "textures/items/skins/zorro"
+    },
+    "bp_skin_rappy": {
+      "textures": "textures/items/skins/rappy"
+    },
+    "bp_skin_oso": {
+      "textures": "textures/items/skins/oso"
+    },
+    "bp_skin_nieve": {
+      "textures": "textures/items/skins/nieve"
+    },
+    "liquid_bp_water": {
+      "textures": "textures/blocks/water_placeholder"
+    },
+    "liquid_bp_lava": {
+      "textures": "textures/blocks/lava_placeholder"
+    },
+    "backpack_leather": {
+      "textures": "textures/bp/backpack_leather"
+    },
+    "backpack": {
+      "textures": "textures/bp/backpack_iron"
+    },
+    "backpack_2": {
+      "textures": "textures/bp/backpack_diamond"
+    },
+    "backpack_3": {
+      "textures": "textures/bp/backpack_netherite"
+    },
+    "backpack_copper": {
+      "textures": "textures/bp/backpack_copper"
+    },
+    "backpack_gold": {
+      "textures": "textures/bp/backpack_gold"
+    },
+    "complement_base": {
+      "textures": "textures/items/base_complement"
+    },
+    "complement_furnace_level2": {
+      "textures": "textures/items/furnace_complement_v2"
+    },
+    "complement_furnace": {
+      "textures": "textures/items/furnace_complement"
+    },
+    "complement_farming": {
+      "textures": "textures/items/farming_complement"
+    },
+    "complement_liquid": {
+      "textures": "textures/items/liquid_complement"
+    },
+    "complement_force": {
+      "textures": "textures/items/force_complement"
+    },
+    "complement_insert": {
+      "textures": "textures/items/insert_complement"
+    },
+    "complement_transfer": {
+      "textures": "textures/items/transfer_complement"
+    },
+    "complement_axe": {
+      "textures": "textures/items/axe_complement"
+    },
+    "complement_jump": {
+      "textures": "textures/items/climb_complement_2"
+    },
+    "complement_mining": {
+      "textures": "textures/items/mining_complement"
+    },
+    "complement_torch": {
+      "textures": "textures/items/torch_complement"
+    },
+    "complement_apple": {
+      "textures": "textures/items/apple_complement"
+    },
+    "complement_turtle": {
+      "textures": "textures/items/turtle_complement"
+    },
+    "complement_magnet": {
+      "textures": "textures/items/magnet_complement"
+    },
+    "complement_magnet_2": {
+      "textures": "textures/items/magnet_complement_2"
+    },
+    "complement_food": {
+      "textures": "textures/items/food_complement"
+    },
+    "music_disc": {
+      "textures": "textures/items/disc_backpack"
+    },
+    "complement_music": {
+      "textures": "textures/items/music_complement"
+    }
+  },
+  "texture_name": "atlas.items"
+}

@@ -1,0 +1,204 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		// backpack base 
+		"controller.render.backpack_base": {
+			"is_hurt_color": {},
+			"on_fire_color": {},
+			"geometry": "geometry.backpack_base",
+			"materials": [ { "*": "Material.default" } ],
+			"textures": [ "texture.b_base" ]
+		},
+		// backpack level
+		"controller.render.backpack_level": {
+			"is_hurt_color": {},
+			"on_fire_color": {},
+			"geometry": "geometry.backpack",
+			"materials": [ { "*": "Material.default" } ], 
+			"textures": [ "Array.level[q.property('bp:is_backpack')]" ],
+			"arrays": {
+				"textures": {
+					"Array.level": [
+						"texture.b_leather",
+						"texture.b_leather",
+						"texture.b_copper",
+						"texture.b_iron",
+						"texture.b_gold",
+						"texture.b_diamond",
+						"texture.b_nether"
+					]
+				}
+			}
+		},
+
+		// skins bp custom
+		"controller.render.backpack_rappy_mejora": {
+			"is_hurt_color": {},
+			"on_fire_color": {},
+			"geometry": "geometry.backpack_rappy_m",
+			"materials": [ { "*": "Material.default" } ], 
+			"textures": [ "Array.level[q.property('bp:is_backpack')]" ],
+			"arrays": {
+				"textures": {
+					"Array.level": [
+						"texture.b_leather",
+						"texture.b_leather",
+						"texture.b_copper",
+						"texture.b_iron",
+						"texture.b_gold",
+						"texture.b_diamond",
+						"texture.b_nether"
+					]
+				}
+			}
+		},
+		"controller.render.bps_skins": {
+			"is_hurt_color": {},
+			"on_fire_color": {},
+			"geometry": "Array.skins[q.property('bps:is_skin')]",
+			"materials": [ { "*": "Material.default" } ],
+			"textures": [ "Array.skins[q.property('bps:is_skin')]" ],
+			"arrays": {
+				"geometries": {
+					"Array.skins": [
+						"geometry.backpack_axolotl",
+						"geometry.backpack_axolotl",
+						"geometry.backpack_among",
+						"geometry.backpack_golem",
+						"geometry.backpack_nutria",
+						"geometry.backpack_warden",
+						"geometry.backpack_wither",
+						"geometry.backpack_zorro",
+						"geometry.backpack_rappy",
+						"geometry.backpack_oso",
+						"geometry.backpack_nieve",
+						"geometry.backpack_pig",
+						"geometry.backpack_skin_pe",
+						"geometry.backpack_skin_pe"
+					]
+				},
+				"textures": {
+					"Array.skins": [
+						"texture.bps_axolotl",
+						"texture.bps_axolotl",
+						"texture.bps_among",
+						"texture.bps_golem",
+						"texture.bps_nutria",
+						"texture.bps_warden",
+						"texture.bps_wither",
+						"texture.bps_zorro",
+						"texture.bps_rappy",
+						"texture.bps_oso",
+						"texture.bps_nieve",
+						"texture.bps_pig",
+						"texture.bps_libre_12",
+						"texture.bps_libre_13"
+					]
+				}
+			}
+		},
+
+		// Components backpack 
+		"controller.render.backpack_comp_farming": {
+		    "is_hurt_color": {},
+			"on_fire_color": {},
+			"light_color_multiplier": 1,
+			"ignore_lighting": true,
+			"geometry": "geometry.backpack_farming",
+			"materials": [ { "*": "Material.default" } ], 
+			"textures": [ "texture.comp_backpack" ]
+		},
+
+		"controller.render.backpack_comp_furnace": {
+		    "is_hurt_color": {},
+			"on_fire_color": {},
+			"light_color_multiplier": 1,
+			"ignore_lighting": true,
+			"geometry": "geometry.backpack_furnace",
+			"materials": [ { "*": "Material.default" } ], 
+			"textures": [ "texture.comp_backpack" ]
+		},
+
+		"controller.render.backpack_comp_torch": {
+		    "is_hurt_color": {},
+			"on_fire_color": {},
+			"light_color_multiplier": 1.15,
+			"ignore_lighting": true,
+			"geometry": "geometry.backpack_torch",
+			"materials": [ { "*": "Material.default" } ], 
+			"textures": [ "texture.comp_backpack" ]
+		},
+
+		"controller.render.backpack_comp_pickaxe": {
+		    "is_hurt_color": {},
+			"on_fire_color": {},
+			"light_color_multiplier": 1.15,
+			"ignore_lighting": true,
+			"geometry": "geometry.backpack_pickaxe",
+			"materials": [ { "*": "Material.default" } ], 
+			"textures": [ "texture.comp_backpack" ]
+		},
+
+		"controller.render.backpack_comp_axe": {
+		    "is_hurt_color": {},
+			"on_fire_color": {},
+			"light_color_multiplier": 1.15,
+			"ignore_lighting": true,
+			"geometry": "geometry.backpack_axe",
+			"materials": [ { "*": "Material.default" } ], 
+			"textures": [ "texture.comp_backpack" ]
+		},
+ 
+		"controller.render.backpack_comp_jukebox": {
+		    "is_hurt_color": {},
+			"on_fire_color": {},
+			"light_color_multiplier": 1.15,
+			"ignore_lighting": true,
+			"geometry": "geometry.backpack_jukebox",
+			"materials": [ { "*": "Material.default" } ], 
+			"textures": [ "texture.comp_backpack" ]
+		},
+
+		"controller.render.backpack_comp_liquid": {
+		    "is_hurt_color": {},
+			"on_fire_color": {},
+			"light_color_multiplier": 1.15,
+			"ignore_lighting": true,
+			"geometry": "geometry.backpack_liquid",
+			"materials": [ { "*": "Material.default" } ], 
+			"textures": [ "texture.comp_backpack" ]
+		},
+
+		"controller.render.backpack_comp_espada": {
+		    "is_hurt_color": {},
+			"on_fire_color": {},
+			"light_color_multiplier": 1.15,
+			"ignore_lighting": true,
+			"geometry": "geometry.backpack_espada",
+			"materials": [ { "*": "Material.default" } ], 
+			"textures": [ "texture.comp_backpack" ]
+		},
+
+		// colors backpack
+		"controller.render.correas_backpack": {
+			"is_hurt_color": {},
+			"on_fire_color": {},
+			"geometry": "geometry.bp_correas",
+			"materials": [ { "*": "Material.default" } ],
+			"textures": [ "texture.bp_correas" ]
+		},
+		"controller.render.backpack_colors": {
+			"is_hurt_color": {},
+			"on_fire_color": {},
+			"geometry": "geometry.bp_base",
+			"materials": [ { "*": "Material.default" } ],
+			"textures": [ "texture.bp_tinte" ],
+			"overlay_color": {
+				"r": "q.property('bps:color_r')",
+				"g": "q.property('bps:color_g')",
+				"b": "q.property('bps:color_b')",
+				"a": 0.06
+			}
+		}
+	}
+}

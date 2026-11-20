@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "@Roudre - Tus cosas siempre a salvo",
+    "name": "Backpack Pro v1.0.13 RP",
+    "uuid": "a5e7780c-06e6-509a-bb2f-e1f82572121f",
+    "version": [
+      1,
+      0,
+      13
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Backpacks",
+      "type": "resources",
+      "uuid": "27bc45e0-5302-5eb4-ac72-ddc79c0d8273",
+      "version": [
+        1,
+        0,
+        13
+      ]
+    }
+  ]
+}

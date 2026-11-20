@@ -1,0 +1,47 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "@Roudre - Tus cosas siempre a salvo",
+    "name": "Backpack Pro v1.0.13 BP",
+    "uuid": "5fd82459-adae-53ce-9d58-9cd34a3bf8c7",
+    "version": [
+      1,
+      0,
+      13
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Data",
+      "type": "data",
+      "uuid": "4aa00236-4c14-5301-b9d9-03c43c6a2642",
+      "version": [
+        1,
+        0,
+        13
+      ]
+    },
+    {
+      "language": "javascript",
+      "type": "script",
+      "uuid": "8c023f1a-f68b-5ddc-81ec-0341dc0dd7c7",
+      "version": [
+        1,
+        0,
+        13
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.11.0"
+    }
+  ]
+}
