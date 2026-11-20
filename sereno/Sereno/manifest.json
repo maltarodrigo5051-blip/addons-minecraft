@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Sereno",
+    "description": "Visuales realistas, cálidas y tranquilas. Sin Vibrant Visuals.",
+    "uuid": "108ff48b-b190-5c48-84dd-2839096de921",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      120
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "ebcf704d-7ab5-5243-b9f2-58bf911a1a99",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}
